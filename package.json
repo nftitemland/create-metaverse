@@ -1,6 +1,6 @@
 {
   "name": "create-metaverse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Metaverse Creator Module",
   "main": "index.js",
   "bin": "./bin/npxScript.js",
