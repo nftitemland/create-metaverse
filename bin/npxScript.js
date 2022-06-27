@@ -56,7 +56,7 @@ const runSetup = async () => {
 
   console.log(
     "(੭｡╹▿╹｡)੭ " +
-      "\nThe Metaverse ways are always evolving, " +
+      "\nThe Metaverse Ways are always evolving, " +
       "dream to reality is `npx create-metaverse`." +
       "\n♡〜٩(｡╹▿╹｡)۶〜♡"
   );
