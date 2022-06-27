@@ -1,9 +1,15 @@
 # create-metaverse
 
+[![npm version](https://badge.fury.io/js/create-metaverse.svg)](https://badge.fury.io/js/create-metaverse)
+
 Metaverse Creator Module
 
-# About
+## How to Create Metaverse
 
-Module with scripts/steps required to create your own P2E NFT metaverse.
+Run:
 
-Stay tuned for updates.❤️
+```
+npm create-metaverse
+```
+
+![To The Mars](https://coreminterstackprods3nftmine83689-nftmine6aababc1-1i1zrafm04pwk.s3.amazonaws.com/character-images/character_24.png)

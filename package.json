@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Metaverse Creator Module",
   "main": "index.js",
+  "bin": "./bin/npxScript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
