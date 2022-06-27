@@ -1,0 +1,24 @@
+{
+  "name": "create-metaverse",
+  "version": "1.0.0",
+  "description": "Metaverse Creator Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nftitemland/create-metaverse.git"
+  },
+  "keywords": [
+    "NFT",
+    "Metaverse",
+    "P2E"
+  ],
+  "author": "NFT Item Land",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nftitemland/create-metaverse/issues"
+  },
+  "homepage": "https://github.com/nftitemland/create-metaverse#readme"
+}
