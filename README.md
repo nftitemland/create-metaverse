@@ -9,7 +9,7 @@ Metaverse Creator Module
 Run:
 
 ```
-npx create-metaverse
+npx create-metaverse [production] [tag]
 ```
 
 ![To The Mars](https://coreminterstackprods3nftmine83689-nftmine6aababc1-1i1zrafm04pwk.s3.amazonaws.com/character-images/character_24.png)

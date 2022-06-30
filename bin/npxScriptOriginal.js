@@ -1,10 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const isProductionMode = ["production", "p", "prod"].includes(process.argv[2]);
-const stageName = process.argv[3] || "";
-
-const story = require("./story");
+// const { waitForElementToBeRemoved } = require("@testing-library/react");
 
 const delay = (timeout) =>
   new Promise((resolve) => setTimeout(resolve, timeout));
@@ -44,22 +41,16 @@ const runSetup = async () => {
   console.log("╔═════════ஓ๑♡๑ஓ════════╗");
   console.log("Welcome to the NFT Item Land Official Metaverse Builder Guide");
 
-  if (isProductionMode) {
-    console.log("🔥🔥🔥Running Production Mode Guide🔥🔥🔥");
-  }
+  await displayHearts();
+  await displayHearts2();
 
-  if (stageName) {
-    console.log(`Stage name: ${stageName}`);
-  }
+  console.log(
+    "Visit the GitHub repo https://github.com/nftitemland/create-metaverse-inspiration " +
+      "to find the enchanted code. Assembly required."
+  );
 
-  await displayHearts(2);
-
-  story({
-    isProductionMode,
-    stageName,
-  });
-
-  await displayHearts2(2);
+  await displayHearts();
+  await displayHearts2();
 
   console.log("╚══════ ❀•°❀°•❀ ══════╝");
 

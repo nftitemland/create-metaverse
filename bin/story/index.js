@@ -11,7 +11,17 @@ const stepData = [
   [
     {
       stepAction: () => {
-        console.log("Create an AWS account or use your existing account");
+        console.log(
+          "Visit the GitHub repo https://github.com/nftitemland/create-metaverse-inspiration " +
+            "to find the enchanted code. Assembly required. Env File Setup Required."
+        );
+      },
+    },
+  ],
+  [
+    {
+      stepAction: () => {
+        console.log("Create an AWS account or use your existing AWS account");
       },
     },
   ],
@@ -148,21 +158,21 @@ const stepData = [
   [
     {
       stepAction: () => {
-        console.log(`Deploy Lambda Function Policies`);
+        console.log(`Deploy Lambda Function Policies, Script Provided`);
       },
     },
   ],
   [
     {
       stepAction: () => {
-        console.log(`Deploy Lambda Function Roles`);
+        console.log(`Deploy Lambda Function Roles, Script Provided`);
       },
     },
   ],
   [
     {
       stepAction: () => {
-        console.log(`Deploy Lambda Functions`);
+        console.log(`Deploy Lambda Functions, Script Provided`);
       },
     },
   ],
@@ -202,7 +212,7 @@ const stepData = [
   [
     {
       stepAction: () => {
-        console.log(`Add Lambdas to Appropriate DynamoDB Streams`);
+        console.log(`Add Lambdas to DynamoDB Streams`);
         console.log("Lambda: api_dbListenerTransactions_bot");
         console.log("Lambda: api_dbListenerMetadata_bot");
       },
@@ -213,6 +223,16 @@ const stepData = [
     {
       stepAction: () => {
         console.log(`Set Up AWS Amplify with Frontend Code`);
+      },
+    },
+  ],
+
+  [
+    {
+      stepAction: () => {
+        console.log(
+          `Execute userScannerAndUpdater to run daily NFT holder staking`
+        );
       },
     },
   ],
