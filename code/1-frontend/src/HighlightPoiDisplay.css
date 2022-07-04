@@ -1,0 +1,15 @@
+.NewApp .HighlightPoiDisplay {
+  width: 100%;
+  height: 414px;
+  /* background-color: gold; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+}
+
+.HighlightPoiDisplay .HighlightPoi {
+  margin-top: 67px;
+}

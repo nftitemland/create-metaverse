@@ -1,0 +1,191 @@
+.OuterOuterDialogOuterMeta {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 740px;
+  /* width: 100%; */
+  /* width: 200px; */
+  height: 350px;
+  /* height: 280px; */
+  /* <<<<<<< main_2 */
+  /*   height: 50px; */
+  z-index: 9999;
+  /* ======= */
+  /* height: 50px; */
+  /* >>>>>>> game-1 */
+  /* width: 500px; */
+  /* background-color: yellowgreen; */
+  /* opacity: 0.2; */
+}
+
+.DialogOuterMeta {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  /* width: 100%; */
+  /* width: 200px; */
+  /* height: 400px; */
+  /* height: 280px; */
+  /* height: 210px; */
+  /* background-color: yellowgreen; */
+  /* opacity: 0.2; */
+}
+
+.DialogOuterMeta .LoggedIn {
+  height: 350px;
+}
+
+.DialogMeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.DialogMeta .Dialog {
+  position: sticky;
+  /* right: 0px; */
+  width: 200px;
+  background-color: #212746;
+  /* height: 210px; */
+  /* height: 280px; */
+  height: 350px;
+}
+
+.DialogMeta .Dialog .LoggedIn {
+  height: 280px;
+}
+
+.DialogMeta .Dialog .TitleHeaderMeta {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DialogMeta .Dialog .TitleHeader {
+  width: 190px;
+  /* height: 200px; */
+  /* background-color: #75ebdf; */
+  /* { */
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DialogMeta .Dialog .TitleHeaderMeta .TitleHeader .CloseButtonMeta {
+  /* background-color: red; */
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DialogMeta
+  .Dialog
+  .TitleHeaderMeta
+  .TitleHeader
+  .CloseButtonMeta
+  .CloseButtonInner {
+  background-color: #c6ebe0;
+  /* background-color: red; */
+  width: 28px;
+  height: 28px;
+  /* margin-left: 5px; */
+
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #c6ebe0;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.DialogMeta
+  .Dialog
+  .TitleHeaderMeta
+  .TitleHeader
+  .CloseButtonMeta
+  .CloseButtonInner
+  .CloseButtonAsText {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 4px;
+
+  color: black;
+}
+
+.DialogMeta .Dialog .TitleHeaderMeta .TitleHeader .MenuTextMeta {
+  /* background-color: pink; */
+  width: 100px;
+  height: 50px;
+  /* margin-right: 5px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DialogMeta .Dialog .TitleHeaderMeta .TitleHeader .MenuTextMeta .MenuText {
+  font-family: "Amaranth", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  /* color: #c6ebe0; */
+  color: white;
+  user-select: none;
+}
+
+.DialogMeta .Dialog .TitleHeaderMeta .TitleHeader .RightSpacer {
+  /* background-color: red; */
+  width: 50px;
+  height: 50px;
+  /* margin-right: 5px; */
+}
+
+.DialogMeta .Dialog .PageOptionMeta {
+  height: 50px;
+  width: 100%;
+  background-color: #c6ebe0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.DialogMeta .Dialog .PageOptionMeta.Selected {
+  background-color: #75ebdf;
+}
+
+.DialogMeta .Dialog .PageOptionMeta.Top {
+  margin-top: 8px;
+}
+
+.DialogMeta .Dialog .PageOptionMeta .PageOptionText {
+  width: 100%;
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* text-align: left; */
+  /* margin-left: 80px; */
+}

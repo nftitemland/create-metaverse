@@ -1,0 +1,21 @@
+.LandsPromoSectionZ {
+  /* margin-top: 65px; */
+  width: "90%";
+  max-width: 600px;
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: green; */
+  /* background-color: black; */
+  /* background-color: #212746; */
+  background-color: #070b22;
+  /* background-color: #070b22; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LandsPromoSectionZ .NumberInput::placeholder {
+  color: rgb(108, 108, 249);
+  opacity: 50%;
+}

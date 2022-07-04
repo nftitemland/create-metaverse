@@ -1,0 +1,9 @@
+const colorData = {
+  ULTRA_PREMIUM_LANDS_BACKGROUND_COLOR: "darkblue",
+  DIAMOND_LANDS_BACKGROUND_COLOR: "black",
+  ROYAL_GUARD_LANDS_BACKGROUND_COLOR: "red",
+  YELLOW_BRICK_ROAD_LANDS_BACKGROUND_COLOR: "yellow",
+  WATER: "BLUE",
+};
+
+export default colorData;

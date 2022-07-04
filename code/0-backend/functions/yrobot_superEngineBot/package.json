@@ -1,0 +1,16 @@
+{
+  "name": "expansive-lambda-yrobot-super-engine-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NFT Item Land",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "compute-utils": "file:../utils",
+    "ethereumjs-util": "^7.1.3"
+  }
+}

@@ -1,0 +1,137 @@
+.MPMMeta {
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MPMMeta .MPM {
+  /* margin-top: 55px; */
+  width: 320px;
+  /* height: 50px; */
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MPMMeta .MPM .TitleMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  height: 60px;
+  /* background-color: green; */
+  background-color: #070b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MPMMeta .MPM .TitleMeta .TitleTextMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  /* height: 100%; */
+  /* background-color: green; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MPMMeta .MPM .TitleMeta .TitleTextMeta .TitleText {
+  /* width: 100%; */
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  margin-left: 14px;
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta {
+  /* width: 314px; */
+  width: 100%;
+  height: 140px;
+  background-color: #212746;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Left {
+  width: 60%;
+  height: 100%;
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Left .TextMeta {
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: greenyellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Left .TextMeta .Text {
+  width: 75%;
+  height: 100%;
+  /* background-color: oldlace; */
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Right {
+  width: 40%;
+  height: 100%;
+  /* background-color: yellow; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Right .SetProfileVisibilityButton {
+  width: 90%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #c6ebe0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Right .SetProfileVisibilityButton.Disabled {
+  background-color: darkgray;
+  cursor: unset;
+}
+
+.MPMMeta .MPM .PublicSwitchMeta .Right .SetProfileVisibilityButton .Label {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 100%;
+  /* height: 100%; */
+  /* background-color: oldlace; */
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+}

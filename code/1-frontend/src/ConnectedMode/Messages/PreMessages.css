@@ -1,0 +1,58 @@
+.PreMessagesMeta {
+  width: 100%;
+  max-width: 320px;
+  /* background-color: green; */
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.PreMessagesMeta .InfoMeta {
+  width: 100%;
+  background-color: #212746;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PreMessagesMeta .InfoMeta .InfoText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* TITLE COMPONENT CSS */
+.TitleComponentMeta {
+  margin-top: 72px;
+  width: 100%;
+  height: 60px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+}
+
+.TitleComponentMeta .TitleComponentTextMeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 20px; */
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+.TitleComponentMeta .TitleComponentTextMeta .TitleComponentText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-bottom: 11px;
+}

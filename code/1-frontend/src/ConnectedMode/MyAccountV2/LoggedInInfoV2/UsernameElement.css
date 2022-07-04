@@ -1,0 +1,163 @@
+.LoggedInInfoV2 .Element .UsernameElement {
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: violet; */
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar {
+  width: 92%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orange; */
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar .TextMeta {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* overflow-x: scroll; */
+
+  /* background-color: red; */
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar .TextMeta .Text {
+  /* width: 100%; */
+  width: 95%;
+  /* height: 100%; */
+  /* font-size: 19px; */
+  font-size: 16px;
+
+  align-items: center;
+  font-family: "Amaranth", sans-serif;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar .TextEditMeta {
+  width: 100%;
+  height: 86%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* overflow-x: scroll; */
+
+  background-color: #c6ebe0;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar .TextEditMeta.Disabled {
+  background-color: lightgray;
+  cursor: unset;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .TopBar .UsernameInput {
+  width: 95%;
+  height: 100%;
+  background-color: unset;
+  border: none;
+
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+  font-size: 16px;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar {
+  width: 92%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: yellow; */
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar.EditMode {
+  justify-content: space-between;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .EditButton {
+  width: 80px;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #c6ebe0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .EditButton .Label {
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .CancelEditButton {
+  width: 60px;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #c6ebe0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.LoggedInInfoV2
+  .Element
+  .UsernameElement
+  .BottomBar
+  .CancelEditButton.Disabled {
+  background-color: lightgray;
+  cursor: unset;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .CancelEditButton .Label {
+  font-family: "Amaranth", sans-serif;
+  font-size: 16px;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .SaveButton {
+  width: 60px;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #75ebdf;
+  cursor: pointer;
+  user-select: none;
+  /* color: white; */
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .SaveButton.Disabled {
+  background-color: lightgray;
+  cursor: unset;
+}
+
+.LoggedInInfoV2 .Element .UsernameElement .BottomBar .SaveButton .Label {
+  font-family: "Amaranth", sans-serif;
+  font-size: 16px;
+}

@@ -1,0 +1,311 @@
+.MessagesMeta {
+  width: 100%;
+  /* background-color: green; */
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  width: 100%;
+  /* background-color: blue; */
+  /* height: 400px; */
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TitleMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  height: 50px;
+  /* background-color: green; */
+  /* background-color: #212746; */
+  /* background-color: black; */
+  background-color: #070b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TitleMeta .TitleTextMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  /* height: 100%; */
+  /* background-color: green; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MessagesMeta .MessageBoxMeta .TitleMeta .TitleTextMeta .TitleText {
+  /* width: 100%; */
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  margin-left: 14px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.MessagesMeta .MessageBoxMeta .MessageSectionMeta {
+  width: 100%;
+  /* background-color: peru; */
+  background-color: #353a53;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .MessageSectionMeta .MessageTrackMeta {
+  width: 100%;
+  /* background-color: plum; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* overflow-y: scroll; */
+}
+
+.MessagesMeta
+  .MessageBoxMeta
+  .MessageSectionMeta
+  .MessageTrackMeta
+  .MessageTrack {
+  width: 100%;
+  /* background-color: powderblue; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; */
+  overflow-y: hidden;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.MessagesMeta
+  .MessageBoxMeta
+  .MessageSectionMeta
+  .MessageTrackMeta
+  .MessageTrack
+  .MessageBox {
+  width: 100%;
+  /* background-color: palegreen; */
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta
+  .MessageBoxMeta
+  .MessageSectionMeta
+  .MessageTrack
+  .MessageBox
+  .TextMeta {
+  /* height: 200px; */
+  width: 90%;
+  /* background-color: palegreen; */
+  background-color: #212746;
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.MessagesMeta
+  .MessageBoxMeta
+  .MessageSectionMeta
+  .MessageTrack
+  .MessageBox
+  .TextMeta
+  .Message {
+  width: 90%;
+  text-align: left;
+  font-family: "Tajawal", sans-serif;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for WebKit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.MessagesMeta .MessageBoxMeta .MessageSectionMeta .PrevMessageSearchMeta {
+  width: 100%;
+  background-color: red;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta
+  .MessageBoxMeta
+  .MessageSectionMeta
+  .PrevMessageSearchMeta
+  .PrevMessageSearchTextMeta {
+  width: 100%;
+  background-color: red;
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta {
+  width: 100%;
+  background-color: purple;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .InputMeta {
+  width: 75%;
+  /* background-color: black; */
+  background-color: #070b22;
+
+  /* background-color: aqua; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .InputMeta .MessageInput {
+  width: 80%;
+  /* background-color: aqua; */
+  /* background-color: black; */
+  height: 80%;
+
+  font-family: "Tajawal", sans-serif;
+
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 18px;
+  resize: none;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .SendButtonMeta {
+  width: 25%;
+  /* background-color: black; */
+  background-color: #070b22;
+  /* background-color: chartreuse; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .SendButton {
+  width: 80%;
+  height: 40%;
+  background-color: seagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .SendAnonButton {
+  width: 80%;
+  height: 50%;
+  /* background-color: red; */
+  /* background-color: #353a53; */
+  background-color: #c6ebe0;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  /* align-self: ; */
+}
+
+.MessagesMeta .MessageBoxMeta .TypingSectionMeta .SendAnonButton.Loading {
+  background-color: lightgray;
+}
+.MessagesMeta
+  .MessageBoxMeta
+  .TypingSectionMeta
+  .SendAnonButton
+  .SendAnonLabel {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+}
+
+.MessagesMeta .MessageBoxMeta .PreTypingSectionMeta {
+  width: 100%;
+  /* background-color: black; */
+  background-color: #070b22;
+
+  height: 55px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MessagesMeta .MessageBoxMeta .PreTypingSectionMeta .TextMeta {
+  width: 100%;
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MessagesMeta .MessageBoxMeta .PreTypingSectionMeta .TextMeta .Text {
+  width: 80%;
+  /* background-color: green; */
+  font-family: "Tajawal", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: white;
+}

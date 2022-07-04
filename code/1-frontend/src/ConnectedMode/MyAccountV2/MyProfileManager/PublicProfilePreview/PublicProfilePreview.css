@@ -1,0 +1,152 @@
+.PublicProfilePreviewMetaContainer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #c6ebe0;
+}
+
+.PublicProfilePreviewMeta {
+  width: 314px;
+  /* height: 200px; */
+  background-color: #212746;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 3px;
+
+  /* border-right-width: 3px; */
+  /* border-left-width: 3px; */
+  /* border-bottom-width: 3px; */
+  /* border-style: solid; */
+  /* border-color: #e4609e; */
+}
+
+.PublicProfilePreviewMeta .PublicProfilePreviewBox {
+  width: 85%;
+  height: 260px;
+  /* background-color: violet; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.PublicProfilePreviewMeta .TopInfoMeta {
+  width: 100%;
+  height: 28px;
+  background-color: #c6ebe0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* align-self: flex-start; */
+}
+
+.PublicProfilePreviewMeta .TopInfoMeta .TopInfo {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10px; */
+}
+
+.PublicProfilePreviewMeta .TopInfoMeta .TopInfo .InfoText {
+  /* width: 100%; */
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  color: black;
+  /* margin-left: 14px; */
+  /* margin-bottom: 6px; */
+  font-size: 20px;
+}
+
+.PublicProfilePreview {
+  width: 85%;
+  /* height: 90%; */
+  /* background-color: violet; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.PublicProfilePreview .TitleMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  height: 60px;
+  /* background-color: green; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.PublicProfilePreview .TitleMeta .TitleTextMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  /* height: 100%; */
+  /* background-color: green; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.PublicProfilePreview .TitleMeta .TitleTextMeta .TitleText {
+  /* width: 100%; */
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  margin-left: 14px;
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+.PublicProfilePreviewMeta .SecondLifeSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.PublicProfilePreviewMeta .ArtPointsMeta {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  height: 100px;
+  /* background-color: green; */
+  /* background-color: purple; */
+  background-color: #c6ebe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PublicProfilePreviewMeta .ArtPointsMeta .Text {
+  /* width: 100%; */
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  /* margin-left: 14px; */
+  /* margin-bottom: 6px; */
+  font-size: 24px;
+}

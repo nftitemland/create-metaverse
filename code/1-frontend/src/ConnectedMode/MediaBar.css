@@ -1,0 +1,102 @@
+.MediaBar {
+  width: 100%;
+  max-width: 740px;
+  height: 55px;
+  background-color: #070b22;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MediaBar .LeftSection {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MediaBar .LeftSection .LeftSectionPoiBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: purple; */
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.MediaBar .LeftSection .OverallTextMeta {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.MediaBar .LeftSection .OverallTextMeta .UpperTextMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MediaBar .LeftSection .OverallTextMeta .UpperTextMeta .UpperText {
+  text-align: left;
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+.MediaBar .LeftSection .OverallTextMeta .TextMetaSpacer {
+  width: 1px;
+  height: 4px;
+  /* background-color: yellow; */
+}
+
+.MediaBar .LeftSection .OverallTextMeta .LowerTextMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MediaBar .LeftSection .OverallTextMeta .LowerTextMeta .LowerText {
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  color: white;
+}
+
+/* 
+<div className="LeftSectionPoiBox"></div>
+        <div className="OverallTextMeta">
+          <div className="UpperTextMeta">
+            <div className="UpperText">{"nftitem.net"}</div>
+          </div>
+          <div className="LowerTextMeta"> */
+
+.MediaBar .RightSection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.MediaBar .RightSection .RightSectionSButtonBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* width: 40px; */
+  height: 55px;
+  margin-right: 5px;
+
+  cursor: pointer;
+  user-select: none;
+}

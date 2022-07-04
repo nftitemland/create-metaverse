@@ -1,0 +1,18 @@
+.LandsPromoSection {
+  margin-top: 65px;
+  width: 100%;
+  width: 320px;
+  /* height: 200px; */
+  /* background-color: green; */
+  /* background-color: black; */
+  background-color: #070b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LandsPromoSection .NumberInput::placeholder {
+  color: rgb(108, 108, 249);
+  opacity: 50%;
+}

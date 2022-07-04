@@ -1,0 +1,103 @@
+.LoggedInInfoV2 {
+  width: 100%;
+
+  /* height: 200px; */
+
+  padding-bottom: 60px;
+
+  /* background-color: green; */
+  /* height: 20px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+}
+
+.LoggedInInfoV2 .Container {
+  /* background-color: bisque; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h";
+}
+
+.LoggedInInfoV2 .Element {
+  width: 100%;
+  height: 100%;
+  background-color: #212746;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoggedInInfoV2 .Element .Text {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: white; */
+  color: white;
+  text-align: center;
+
+  font-family: "Amaranth", sans-serif;
+}
+
+.LoggedInInfoV2 .ItemA {
+  /* background-color: pink; */
+  grid-area: a;
+  height: 120px;
+  /* width: 20px; */
+  /* width: 20px; */
+}
+
+.LoggedInInfoV2 .ItemB {
+  /* background-color: blue; */
+  grid-area: b;
+  height: 120px;
+  /* width: 20px; */
+}
+.LoggedInInfoV2 .ItemC {
+  /* background-color: peru; */
+  grid-area: c;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+.LoggedInInfoV2 .ItemD {
+  grid-area: d;
+  /* background-color: purple; */
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.LoggedInInfoV2 .ItemE {
+  /* background-color: peru; */
+  height: 120px;
+  grid-area: e;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+.LoggedInInfoV2 .ItemF {
+  grid-area: f;
+  height: 120px;
+  /* background-color: purple; */
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.LoggedInInfoV2 .ItemG {
+  /* background-color: peru; */
+  grid-area: g;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+.LoggedInInfoV2 .ItemH {
+  grid-area: h;
+  /* background-color: purple; */
+  /* height: 20px; */
+  /* width: 20px; */
+}

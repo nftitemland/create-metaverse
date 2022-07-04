@@ -1,0 +1,16 @@
+{
+  "name": "expansive-lambda-userdata-get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NFT Item Land",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "compute-utils": "file:../utils",
+    "ethereumjs-util": "^7.1.3"
+  }
+}

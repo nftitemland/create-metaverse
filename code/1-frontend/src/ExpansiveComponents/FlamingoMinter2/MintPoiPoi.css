@@ -1,0 +1,137 @@
+.MintUltraFlaminMeta {
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi {
+  margin-top: 55px;
+  /* width: 320px; */
+  background-color: unset;
+  /* height: 100px; */
+  /* background-color: beige; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .ButtonHolder {
+  width: 100%;
+  /* height: 270spx; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: goldenrod; */
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .ButtonHolder .MintButton {
+  background-color: #070b22;
+  width: 320px;
+  height: 100px;
+  cursor: pointer;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .ButtonHolder .MintButton.Disabled {
+  background-color: #212746;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .ButtonHolder .MintButton .MintButtonText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  user-select: none;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .FAQButtonMeta {
+  width: 100%;
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  margin-top: 75px;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .FAQButtonMeta .FAQButton {
+  /* width: 100%; */
+  background-color: #070b22;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .FAQButtonMeta .FAQButton.Disabled {
+  background-color: #212746;
+}
+
+.MintUltraFlaminMeta .MintPoiPoi .FAQButtonMeta .FAQButton .FAQButtonText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  margin: 10px;
+  /* marginTop */
+}
+
+.MintUltraFlaminMeta .PreMintPoiPoi {
+  margin-top: 55px;
+  width: 320px;
+  /* height: 60px; */
+  background-color: unset;
+  /* height: 100px; */
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MintUltraFlaminMeta .PreMintPoiPoi .TitleMeta {
+  height: 49px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MintUltraFlaminMeta .PreMintPoiPoi .TitleMeta .TitleTextBox {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 96%;
+  margin-bottom: 7px;
+  /* height: 20px; */
+}
+
+.MintUltraFlaminMeta .PreMintPoiPoi .TitleMeta .TitleTextBox .TitleText {
+  font-family: "Amaranth", sans-serif;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-size: 22px;
+}

@@ -1,0 +1,62 @@
+.UpperMeta {
+  width: 100%;
+  max-width: 740px;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: unset;
+}
+
+.UpperMeta .Upper {
+  margin-top: 45px;
+  width: 100%;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: #070b22; */
+  border-radius: 15px;
+  /* border-radius: 15px; */
+}
+
+.UpperMeta .Upper .LogoutMeta {
+  /* background-color: pink; */
+  width: 90%;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.UpperMeta .Upper .LogoutMeta .LogoutButton {
+  background-color: #c6ebe0;
+  width: 120px;
+  border-radius: 5px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.UpperMeta .Upper .LogoutMeta .LogoutButton.Disabled {
+  background-color: #353a53;
+  cursor: unset;
+}
+
+.UpperMeta .Upper .LogoutMeta .LogoutButton .Label {
+  width: 100%;
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  color: black;
+}

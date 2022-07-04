@@ -1,0 +1,86 @@
+.LowerZSection {
+  /* background-color: palevioletred; */
+  width: 100%;
+  /* height: 145px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.LowerZSection .LowerZSectionBottomBar {
+  /* background-color: gold; */
+  width: 92%;
+  max-width: 740px;
+  /* height: 50px; */
+  margin-top: 52px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LowerZSection .LowerZSectionBottomBar.Mobile {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 150px; */
+}
+
+.LowerZSection .LowerZSectionBottomBar .PreviousVersionButton {
+  height: 42px;
+  /* width: 60px; */
+  background-color: #c6ebe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LowerZSection .LowerZSectionBottomBar .PreviousVersionButton.Mobile {
+  margin-top: 28px;
+}
+
+.LowerZSection
+  .LowerZSectionBottomBar
+  .PreviousVersionButton
+  .PreviousVersionButtonText {
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  user-select: none;
+}
+
+.LowerZSection .LowerZSectionBottomBar .BottomLinksMeta {
+  height: 100%;
+  /* width: 250px; */
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.LowerZSection .LowerZSectionBottomBar .BottomLinksMeta .BottomLinkBox {
+  height: 100%;
+  width: 50px;
+  /* background-color: blue; */
+  margin-right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LowerZSection
+  .LowerZSectionBottomBar
+  .BottomLinksMeta
+  .BottomLinkBox.MostRightBox {
+  margin-right: 0px;
+}

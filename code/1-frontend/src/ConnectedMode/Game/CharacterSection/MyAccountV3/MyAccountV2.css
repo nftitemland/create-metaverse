@@ -1,0 +1,177 @@
+.MyAccountMetaV2 {
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyAccountMetaV2 .MyAccountV2 {
+  margin-top: 55px;
+  width: 320px;
+  /* height: 50px; */
+  /* height: 100px; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection {
+  width: 100%;
+  background-color: #212746;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .LeftPart {
+  width: 65%;
+  height: 100%;
+  /* background-color: black; */
+  background-color: #212746;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .LeftPart.LoggedIn {
+  width: 100%;
+  height: 100%;
+  background-color: #070b22;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .LeftPart .TextMeta {
+  /* width: 100%; */
+  /* background-color:  */
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-left: 14px;
+  margin-bottom: 6px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .LeftPart .TextMeta .Text {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* width: 100%; */
+  /* height: 25px; */
+  /* background-color: black; */
+  text-align: left;
+  font-size: 18px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .LeftPart .TextMeta .Text.LoggedIn {
+  font-size: 24px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .RightPart {
+  width: 35%;
+  /* background-color: chocolate; */
+  background-color: #070b22;
+  height: 100%;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  /* height: 55px; */
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .RightPart .TextMeta {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: pink; */
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-left: 16px; */
+  margin-bottom: 6px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .TopSection .RightPart .TextMeta .Text {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* width: 100%; */
+  /* height: 25px; */
+  /* background-color: black; */
+  text-align: center;
+  font-size: 16px;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .SectionTwo {
+  width: 100%;
+  /* background-color: #75ebdf; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 60px; */
+}
+
+.MyAccountMetaV2 .MyAccountV2 .SectionTwo .LoginButtonMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: pink; */
+  width: 100%;
+  height: 100%;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .LoginButtonMeta .Button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212746;
+  /* background-color: black; */
+  width: 100%;
+  margin-top: 6px;
+  /* margin-bottom: 10px; */
+  /* margin-left: 20px; */
+  /* border-radius: 5px; */
+  cursor: pointer;
+  user-select: none;
+}
+
+.MyAccountMetaV2 .MyAccountV2 .LoginButtonMeta .Button .Text {
+  font-family: "Amaranth", sans-serif;
+  width: 100%;
+  color: white;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 35px;
+  text-align: left;
+  font-size: 25px;
+  /* margin-right: 20px; */
+  /* height: 100%; */
+}
+
+.MyAccountMetaV2 .MyAccountV2 .LoginButtonMeta .Button.Disabled {
+  /* border-left: 3px solid green; */
+  /* border-right: 3px solid green; */
+  border-bottom: 6px solid green;
+  cursor: unset;
+}

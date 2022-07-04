@@ -1,0 +1,226 @@
+.VisibilitySelectorsMetaContainer {
+  width: 100%;
+
+  /* height: 200px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+}
+
+.VisibilitySelectorsMeta {
+  width: 100%;
+
+  /* height: 197/px; */
+  margin-bottom: 3px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #212746;
+  /* background-color: teal; */
+}
+
+.VisibilitySelectorsMeta .TitleMeta2 {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  height: 40px;
+  /* background-color: green; */
+  background-color: #070b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.VisibilitySelectorsMeta .TitleMeta2 .TitleTextMeta2 {
+  /* margin-top: 25px; */
+  width: 100%;
+  /* height: 50px; */
+  /* height: 100%; */
+  /* background-color: green; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.VisibilitySelectorsMeta .TitleMeta2 .TitleTextMeta2 .TitleText2 {
+  /* width: 100%; */
+  color: #ffffff;
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  margin-left: 14px;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection {
+  /* background-color: bisque; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "z y x"
+    "a b c"
+    "d e f"
+    "d1 q f1"
+    "g h i";
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .Element {
+  width: 100%;
+  height: 100%;
+  background-color: #212746;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .Element.Touch {
+  user-select: none;
+  cursor: pointer;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .Element.Touch.Loading {
+  background-color: #070b22;
+  cursor: unset;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .Element .Text {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: white; */
+  color: white;
+  text-align: center;
+
+  font-family: "Amaranth", sans-serif;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .Element .Text2 {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: white; */
+  color: white;
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  /* font-family: "Amaranth", sans-serif; */
+  font-size: 15px;
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemA1 {
+  background-color: blue;
+  grid-area: z;
+  height: 70px;
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemB1 {
+  background-color: peru;
+  height: 70px;
+  grid-area: y;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemC1 {
+  /* background-color: peru; */
+  height: 70px;
+  grid-area: x;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemA {
+  /* background-color: tomato; */
+  grid-area: a;
+  height: 70px;
+  /* width: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemB {
+  background-color: blue;
+  grid-area: b;
+  height: 70px;
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemC {
+  /* background-color: peru; */
+  height: 70px;
+  grid-area: c;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemD {
+  /* background-color: tomato; */
+  grid-area: d;
+  height: 70px;
+  /* width: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemE {
+  background-color: blue;
+  grid-area: e;
+  height: 70px;
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemF {
+  /* background-color: peru; */
+  height: 70px;
+  grid-area: f;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemD1 {
+  /* background-color: tomato; */
+  grid-area: d1;
+  height: 70px;
+  /* width: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemQ {
+  background-color: blue;
+  grid-area: q;
+  height: 70px;
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemF1 {
+  /* background-color: peru; */
+  height: 70px;
+  grid-area: f1;
+  /* height: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemG {
+  /* background-color: tomato; */
+  grid-area: g;
+  height: 70px;
+  /* width: 20px; */
+  /* width: 20px; */
+}
+
+.VisibilitySelectorsMeta .SelectorsSection .ItemH {
+  background-color: blue;
+  grid-area: h;
+  height: 70px;
+  /* width: 20px; */
+}
+.VisibilitySelectorsMeta .SelectorsSection .ItemI {
+  /* background-color: peru; */
+  height: 70px;
+  grid-area: i;
+  /* height: 20px; */
+  /* width: 20px; */
+}
