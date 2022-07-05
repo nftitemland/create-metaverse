@@ -30,7 +30,7 @@ Specifically, holding one of the above-mentioned NFTs means having any NFT from 
 
 - 0xba75108527c630a093ab4a4a569ddab2e2b8a8ba on Polygon
 - 0xd70292d3df1c7ee16d395469a3f0e7ba3824d355 on Polygon
-- 0xd4d29a9ea76d6e31bd02af1d02549a35db08a30d on Ethereum.
+- 0xd4d29a9ea76d6e31bd02af1d02549a35db08a30d on Ethereum
 
 ### Mint and Purchase Links
 
