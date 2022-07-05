@@ -11,8 +11,21 @@ const stepData = [
   [
     {
       stepAction: () => {
+        console.log("Create a folder on your computer where you want to work.");
+      },
+    },
+    {
+      stepAction: () => {
         console.log(
-          "Go to the /code folder in this repo " +
+          "Go to that folder in your CLI and run `npm init`. " +
+            "Then run `npm install create-metaverse`."
+        );
+      },
+    },
+    {
+      stepAction: () => {
+        console.log(
+          "Go to the /node_modules/create-metaverse/code folder " +
             "to find the enchanted metaverse code. Assembly required. Env File Setup Required."
         );
       },
