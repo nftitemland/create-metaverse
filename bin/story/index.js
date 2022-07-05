@@ -17,8 +17,8 @@ const stepData = [
     {
       stepAction: () => {
         console.log(
-          "Go to that folder in your CLI and run `npm init`. " +
-            "Then run `npm install create-metaverse`."
+          "Go to that folder in your CLI and run `npm init` and follow the prompts. " +
+            "Then, run `npm install create-metaverse`."
         );
       },
     },
@@ -26,7 +26,7 @@ const stepData = [
       stepAction: () => {
         console.log(
           "Go to the /node_modules/create-metaverse/code folder " +
-            "to find the enchanted metaverse code. Assembly required. Env File Setup Required."
+            "to find the enchanted metaverse code. Assembly required. Env file setup required."
         );
       },
     },
