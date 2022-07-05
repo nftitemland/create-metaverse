@@ -201,7 +201,7 @@ const stepData = [
     {
       stepAction: () => {
         console.log(`Deploy and Configure Websocket API Gateway`);
-        console.log(`Attach Lambda Functions to Websocket API Gateway`);
+        console.log(`Attach Lambda Function(s) to Websocket API Gateway`);
       },
     },
   ],
