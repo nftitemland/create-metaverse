@@ -1,0 +1,263 @@
+.SettingsMeta {
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SettingsMeta .PreUpperMeta {
+  width: 100%;
+  /* height: 610px; */
+  max-width: 740px;
+  /* background-color: darkmagenta; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SettingsMeta .UpperMeta {
+  width: 100%;
+  max-width: 740px;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SettingsMeta .UpperMeta .Upper {
+  margin-top: 45px;
+  width: 100%;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #070b22;
+  border-radius: 15px;
+  /* border-radius: 15px; */
+}
+
+.SettingsMeta .Settings {
+  width: 100%;
+  max-width: 740px;
+  /* background-color: darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SettingsMeta .Settings .FAQButtonMeta {
+  width: 100%;
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* margin-top: 75px; */
+}
+
+.SettingsMeta .Settings .FAQButtonMeta .FAQButton {
+  /* width: 100%; */
+  background-color: #212746;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.SettingsMeta .Settings .FAQButtonMeta .FAQButton.Pressed {
+  /* width: 100%; */
+  background-color: #070b22;
+}
+
+.SettingsMeta .Settings .FAQButtonMeta .FAQButton .FAQButtonText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin: 10px;
+  /* marginTop */
+}
+
+.SettingsMeta .Settings .CoolSection {
+  width: 100%;
+  /* background-color: darkmagenta; */
+
+  margin-bottom: 35px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SettingsMeta .Settings .CoolSection .PoiChillSectionMeta {
+  width: 100%;
+  background-color: #070b22;
+  /* height: 40px; */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SettingsMeta .Settings .CoolSection .PoiChillSectionMeta.Mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SettingsMeta .Settings .CoolSection .PoiChillSectionMeta .LeftOuterMeta {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .LeftOuterMeta.Mobile {
+  margin-top: 25px;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .LeftOuterMeta
+  .OneMeta {
+  /* width: 50%; */
+  /* height: 100px; */
+  /* background-color: blue; */
+
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .LeftOuterMeta
+  .OneMeta
+  .OneMetaText {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* width: 90%; */
+  text-align: center;
+  font-size: 28px;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .LeftOuterMeta
+  .TwoMeta {
+  /* width: 50%; */
+  /* height: 25px; */
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .LeftOuterMeta
+  .TwoMetaPoi {
+} */
+
+.SettingsMeta .Settings .CoolSection .PoiChillSectionMeta .RightOuterMeta {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: pink; */
+  width: 300px;
+  min-height: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* height: 50px; */
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .RightOuterMeta
+  .NftItemDoll {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .RightOuterMeta
+  .NftItemDollLabelMeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.SettingsMeta
+  .Settings
+  .CoolSection
+  .PoiChillSectionMeta
+  .RightOuterMeta
+  .NftItemDollLabelMeta
+  .NftItemDollLabel {
+  border-radius: 13px;
+  text-align: left;
+
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* width: 90%; */
+  text-align: center;
+  font-size: 16px;
+}

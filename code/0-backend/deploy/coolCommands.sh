@@ -1,0 +1,1 @@
+ node deployFunctions.js --functions="yPOST/realRequest,POST/userData,yBOT/realtimeUpdater,yBOT/disco,yBOT/superEngine" --mode=production

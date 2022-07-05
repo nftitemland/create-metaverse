@@ -1,0 +1,459 @@
+.MiniGameOneMeta {
+  width: 100%;
+
+  /* background-color: greenyellow; */
+  /* height: 20px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne {
+  margin-top: 55px;
+
+  width: 320px;
+
+  /* background-color: greenyellow; */
+  /* height: 250px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .TopBar {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .TopBar .TitleTextMeta {
+  /* background-color: blue; */
+  width: 100%;
+
+  /* margin-bottom: 5px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.MiniGameOneMeta .MiniGameOne .TopBar .TitleTextMeta .TitleTextBox {
+  /* background-color: green; */
+  /* width: 100%; */
+  /* height: 60px; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.MiniGameOneMeta .MiniGameOne .TopBar .TitleTextMeta .TitleTextBox.Alt {
+  /* background-color: green; */
+  /* width: 100%; */
+  margin-bottom: 0px;
+}
+
+.MiniGameOneMeta .MiniGameOne .TopBar .TitleTextMeta .TitleTextBox .TitleText {
+  width: 100%;
+  /* height: 60px; */
+  font-size: 25px;
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  text-align: left;
+}
+
+.MiniGameOneMeta .MiniGameOne .SubtitleTextMeta {
+  width: 100%;
+  /* height: 60px; */
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MiniGameOneMeta .MiniGameOne .SubtitleTextMeta .SubtitleTextBox {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.MiniGameOneMeta .MiniGameOne .SubtitleTextMeta .SubtitleTextBox .SubtitleText {
+  width: 100%;
+  /* height: 60px; */
+  font-size: 14px;
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar {
+  background-color: greenyellow;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .GameMenu {
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .GameMenu .ButtonsMeta {
+  /* background-color: pink; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .GameMenu .ButtonsMeta .TryGameButton {
+  background-color: blue;
+  /* width: 100px; */
+  width: 124px;
+  height: 38px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #212746;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.MiniGameOneMeta
+  .MiniGameOne
+  .MidBar
+  .GameMenu
+  .ButtonsMeta
+  .TryGameButton.Disabled {
+  background-color: lightgray;
+}
+
+.MiniGameOneMeta
+  .MiniGameOne
+  .MidBar
+  .GameMenu
+  .ButtonsMeta
+  .TryGameButton
+  .Label {
+  font-family: "Amaranth", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .GameMenu .ButtonsMeta .StartGameButton {
+  background-color: #212746;
+  width: 124px;
+  height: 38px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.MiniGameOneMeta
+  .MiniGameOne
+  .MidBar
+  .GameMenu
+  .ButtonsMeta
+  .StartGameButton.Disabled {
+  background-color: lightgray;
+}
+
+.MiniGameOneMeta
+  .MiniGameOne
+  .MidBar
+  .GameMenu
+  .ButtonsMeta
+  .StartGameButton
+  .Label {
+  font-family: "Amaranth", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.MiniGameOneMeta .MiniGameOne .BottomBar {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* height: 100%; */
+  background-color: #212746;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Left .Button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  /* height: 100%; */
+  background-color: #c6ebe0;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Left .Button .Label {
+  font-family: "Amaranth", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 100%; */
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* height: 100%; */
+  /* background-color: white; */
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Right .StartButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: greenyellow;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.MiniGameOneMeta .MiniGameOne .MidBar .DemoModeMeta .Right .StartButton .Label {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
+.MiniGameOneMeta .GSPrePoiPick {
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GSPrePoiPick .TextMeta .Text {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  font-size: 27px;
+  color: white;
+}
+
+.MiniGameOneMeta .GSPoiPick {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.MiniGameOneMeta .GSPoiPick.Alt1 {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.MiniGameOneMeta .GSPoiPick.Alt2 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MiniGameOneMeta .GSPoiPick.Alt1.Alt2 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MiniGameOneMeta .GSPoiPick.Alt2 {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.MiniGameOneMeta .GSPoiPick .PoiBox {
+  width: 140px;
+  height: 140px;
+  background-color: black;
+}
+
+.MiniGameOneMeta .GSWin {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOneMeta .GSWin .TextMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 96%;
+}
+
+.MiniGameOneMeta .GSWin .Text {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  /* font-size: 27px; */
+  /* color: white; */
+}
+
+.MiniGameOneMeta .GSLose {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+.MiniGameOneMeta .GSLose .TextMeta {
+  display: flex;
+  width: 96%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOneMeta .GSLose .Text {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  /* font-size: 27px; */
+  /* color: white; */
+}
+
+.MiniGameOneMeta .Results {
+  width: 100%;
+  /* height: 450px; */
+  height: 200px;
+  background-color: beige;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MiniGameOneMeta .Results .TextMeta {
+  width: 92%;
+  /* background-color: blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOneMeta .Results .Text {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+.MiniGameOne .PreviewMeta {
+  width: 90%;
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MiniGameOne .PreviewMeta .Text {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+}

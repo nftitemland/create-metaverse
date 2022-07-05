@@ -12,8 +12,8 @@ const stepData = [
     {
       stepAction: () => {
         console.log(
-          "Visit the GitHub repo https://github.com/nftitemland/create-metaverse-inspiration " +
-            "to find the enchanted code. Assembly required. Env File Setup Required."
+          "Go to the /code folder in this repo " +
+            "to find the enchanted metaverse code. Assembly required. Env File Setup Required."
         );
       },
     },

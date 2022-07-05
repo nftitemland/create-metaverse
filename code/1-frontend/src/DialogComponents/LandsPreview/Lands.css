@@ -1,0 +1,32 @@
+.LandsPreviewMeta {
+  width: 100%;
+  /* height: 660px; */
+  background-color: #353a53;
+  /* background-color: peru; */
+  padding-bottom: 75px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .item_a {
+  grid-area: a;
+  background-color: burlywood;
+  width: 20px;
+  height: 20px;
+}
+.item_b {
+  background-color: burlywood;
+  grid-area: b;
+}
+.item_c {
+  background-color: burlywood;
+  grid-area: b;
+}
+.item_d {
+  background-color: burlywood;
+  grid-area: b;
+} */

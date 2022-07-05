@@ -1,0 +1,205 @@
+.RealDialogOuterMeta {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  /* background-color: chartreuse; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.RealDialogOuterMeta.ImageMode {
+  height: 100%;
+}
+
+.RealDialogOuterMeta.ImageModeMobile {
+  background-color: black;
+  height: 100%;
+}
+
+.RealDialogOuterMeta.ImageMegaModeMobile {
+  background-color: black;
+  height: 100%;
+}
+
+.RealDialogOuterMeta.ImageMegaModeMobileObscureDims {
+  background-color: black;
+}
+
+.RealDialogMeta {
+  position: fixed;
+  width: 94%;
+  max-width: 640px;
+  /* height: 500px; */
+  /* margin-top: 75px; */
+  /* margin-bottom: 75px; */
+
+  top: 100px;
+}
+
+.RealDialogMeta .CloseMetaButtonBar {
+  position: absolute;
+  /* top: 51px; */
+  /* left: 0px; */
+  /* width: 60px; */
+  /* max-width: 600px; */
+
+  /* height: 50px; */
+  /* background-color: pink; */
+
+  margin-left: 13px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.RealDialogMeta .CloseMetaButtonBar .CloseMetaButtonBarCore {
+  /* top: 51px; */
+  /* left: 0px; */
+  /* width: 100%; */
+  /* max-width: 600px; */
+
+  /* background-color: blanchedalmond; */
+  /* height: 50px; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.RealDialogMeta .CloseMetaButtonBar .CloseMetaButton {
+  height: 35px;
+  width: 35px;
+  /* margin-left: 8px; */
+  background-color: #141a36;
+  border-radius: 4px;
+
+  user-select: none;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.RealDialogMeta .CloseMetaButtonBar .CloseMetaButtonText {
+  font-family: "Amaranth", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+
+/* background-color: palevioletred; */
+
+.RealDialogMeta.Open {
+  -webkit-animation: fadein 0.075s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.075s; /* Firefox < 16 */
+  -ms-animation: fadein 0.075s; /* Internet Explorer */
+  -o-animation: fadein 0.075s; /* Opera < 12.1 */
+  animation: fadein 0.075s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.RealDialogMeta.Close {
+  /* background-color: palevioletred; */
+
+  /* margin-top: 25px; */
+  /* font-size: 21px; */
+  /* text-align: center; */
+
+  -webkit-animation: fadeout 0.075s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadeout 0.075s; /* Firefox < 16 */
+  -ms-animation: fadeout 0.075s; /* Internet Explorer */
+  -o-animation: fadeout 0.075s; /* Opera < 12.1 */
+  animation: fadeout 0.075s;
+}

@@ -1,0 +1,98 @@
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.Meta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NewAppMeta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App {
+  /* margin-top: 150px; */
+
+  width: 340px;
+  /* height: 300px; */
+  /* background-color: blue; */
+  /* background-color: black; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.TitleText {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.App .ToNewSiteButtonMeta {
+  order: 69;
+  width: 340px;
+  /* height: 300px; */
+  background-color: #e4609e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.App .ToNewSiteButtonMeta .ToNewSiteButton {
+  /* width: '90%'; */
+  /* height: 300px; */
+  margin-top: 29px;
+  margin-bottom: 29px;
+  background-color: #4d536e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.App .ToNewSiteButtonMeta .ToNewSiteButton .ToNewSiteButtonText {
+  font-family: "Amaranth", sans-serif;
+  color: #75ebdf;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+img[class*="NoDragElement"] {
+  /* width: 60px; */
+  /* height: 60px; */
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.img-horizontal-flip {
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "expansive-lambda-db-listener-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NFT Item Land",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "compute-utils": "file:../utils",
+    "ethereumjs-util": "^7.1.3",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

@@ -1,0 +1,62 @@
+.CharacterSection .TopSection {
+  width: 100%;
+  background-color: #212746;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.CharacterSection .TopSection .LeftPart {
+  width: 65%;
+  height: 100%;
+  /* background-color: black; */
+  background-color: #212746;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CharacterSection .TopSection .LeftPart.LoggedIn {
+  width: 100%;
+  height: 100%;
+  background-color: #070b22;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.CharacterSection .TopSection .LeftPart .TextMeta {
+  /* width: 100%; */
+  /* background-color:  */
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin-left: 14px;
+  margin-bottom: 6px;
+}
+
+.CharacterSection .TopSection .LeftPart .TextMeta .Text {
+  font-family: "Amaranth", sans-serif;
+  color: white;
+  /* width: 100%; */
+  /* height: 25px; */
+  /* background-color: black; */
+  text-align: left;
+  font-size: 18px;
+}
+
+.CharacterSection .TopSection .LeftPart .TextMeta .Text.LoggedIn {
+  font-size: 24px;
+}

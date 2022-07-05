@@ -1,0 +1,18 @@
+{
+  "name": "expansive-lambda-yreal-real-request-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NFT Item Land",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bluebird": "^3.7.2",
+    "compute-utils": "file:../utils",
+    "uutils-realpoimap": "file:../uUtils/realpoiMap",
+    "ethereumjs-util": "^7.1.3"
+  }
+}

@@ -1,0 +1,82 @@
+.NewApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: green; */
+}
+
+.NewApp .TopMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+}
+
+.NewApp .TopMeta .TopBarMeta {
+  /* margin-top: 30px; */
+  width: 82%;
+  max-width: 1050px;
+  /* height: 48px; */
+  /* background-color: gold; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* cool stuff below */
+
+.NewApp .NewAppRootUpperDisplayMeta {
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; */
+
+  width: 100%;
+
+  height: 692px;
+
+  /* background-color: goldenrod; */
+  z-index: 1;
+  overflow: hidden;
+
+  background: radial-gradient(
+    76.08% 76.44% at 50.03% 84.89%,
+    #b88f00 38.02%,
+    #000000 100%
+  );
+}
+
+.NewApp .NewAppRootUpperDisplayMeta .Planetz {
+  position: absolute;
+
+  left: 50%;
+  bottom: 50px;
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  /* width: 100%; */
+  /* border-radius: 50%; */
+
+  background-color: blue;
+  z-index: 1;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}

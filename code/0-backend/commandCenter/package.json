@@ -1,0 +1,19 @@
+{
+  "name": "commandcenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stakingRulesSet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NFT Item Land",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "compute-utils": "file:../utils",
+    "dotenv": "^10.0.0",
+    "ethereumjs-util": "^7.1.3",
+    "uuid": "^8.3.2",
+    "yargs": "^17.1.1"
+  }
+}

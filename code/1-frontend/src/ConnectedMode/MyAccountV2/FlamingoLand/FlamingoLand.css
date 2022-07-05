@@ -1,0 +1,17 @@
+.FlamingoLand {
+  margin-top: 65px;
+  width: 100%;
+  width: 320px;
+  /* height: 200px; */
+  /* background-color: green; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.FlamingoLand .NumberInput::placeholder {
+  color: rgb(108, 108, 249);
+  opacity: 50%;
+}
